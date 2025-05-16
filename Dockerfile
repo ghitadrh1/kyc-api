@@ -1,9 +1,9 @@
-FROM python:3.10-slim
+FROM python:3.10-bullseye
 
 RUN apt-get update && apt-get install -y \
     git build-essential \
     libleptonica-dev libtesseract-dev \
-    libjpeg8-dev libpng-dev libtiff5-dev zlib1g-dev \
+    libjpeg62-turbo-dev libpng-dev libtiff5-dev zlib1g-dev \
     autoconf automake libtool pkg-config \
     poppler-utils tesseract-ocr-fra tesseract-ocr-ara \
     && rm -rf /var/lib/apt/lists/*
