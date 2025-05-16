@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+paddleocr
+torch
+torchvision
+transformers
+pdf2image
+Pillow
+opencv-python-headless
+tesseract
+ultralytics
+requests
+python-multipart
