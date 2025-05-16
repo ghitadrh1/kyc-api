@@ -1,0 +1,10 @@
+{
+  "name": "kyc-api",
+  "services": [
+    {
+      "name": "backend",
+      "buildCommand": "docker build -t kyc-api .",
+      "startCommand": "uvicorn main:app --host 0.0.0.0 --port 8000"
+    }
+  ]
+}
